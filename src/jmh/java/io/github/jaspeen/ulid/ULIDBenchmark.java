@@ -21,6 +21,13 @@ public class ULIDBenchmark {
     }
 
     @Benchmark
+    @BenchmarkMode(Mode.Throughput)
+    @OutputTimeUnit(TimeUnit.SECONDS)
+    public ULID testMode() {
+        System.out.println("Obvious statement");
+    }
+
+    @Benchmark
     @BenchmarkMode(Mode.AverageTime)
     @OutputTimeUnit(TimeUnit.NANOSECONDS)
     public ULID ulidRandomAverage() {
