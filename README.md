@@ -2,6 +2,7 @@
 ![CI](https://github.com/ubtr/ubt-go/actions/workflows/ci.yml/badge.svg)
 [![Maven Central](https://img.shields.io/maven-central/v/io.github.jaspeen/ulid-java)](https://central.sonatype.com/artifact/io.github.jaspeen/ulid-java)
 [![javadoc](https://javadoc.io/badge2/io.github.jaspeen/ulid-java/javadoc.svg)](https://javadoc.io/doc/io.github.jaspeen/ulid-java)
+![CodeRabbit Pull Request Reviews](https://img.shields.io/coderabbit/prs/github/thelittlecormorant/ulid-java?utm_source=oss&utm_medium=github&utm_campaign=thelittlecormorant%2Fulid-java&labelColor=171717&color=FF570A&link=https%3A%2F%2Fcoderabbit.ai&label=CodeRabbit+Reviews)
 
 Generate and parse ULIDs in Crockford base32 text and binary representations.
 
